@@ -34,10 +34,10 @@ export function Banners() {
         </CarouselItem>
       </CarouselContent>
       <CarouselPrevious
-        className="absolute bottom-1/6 left-2 -translate-y-2/12
-      z-20"
+        className="absolute size-10 bottom-1/6 left-10 translate-y-[160px]
+      z-20 bg-auto shadow-lg"
       />
-      <CarouselNext className="absolute bottom-1/6 right-2 -translate-y-2/12 z-20" />
+      <CarouselNext className="absolute size-10 bottom-1/6 left-30 translate-y-[160px] z-20 shadow-lg" />
     </Carousel>
   );
 }

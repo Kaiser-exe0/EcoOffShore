@@ -59,25 +59,25 @@ export function Header() {
           </div>
         </div>
 
-        {/* Desktop Navigation - Corrigido */}
+        {/* Desktop Navigation  */}
         <div className="hidden md:flex flex-1 justify-center">
           <NavigationMenu>
             <NavigationMenuList className="flex space-x-1">
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="bg-transparent hover:bg-white/20 dark:hover:bg-zinc-800/50 text-base font-medium px-4 py-3 rounded-xl transition-all duration-200">
+                <NavigationMenuTrigger className="bg-transparent hover:bg-white/20 dark:hover:bg-zinc-800/50 text-base font-medium px-4 py-3 rounded-xl transition-all duration-200 hover:backdrop-blur-3xl">
                   Cursos
                 </NavigationMenuTrigger>
-                <NavigationMenuContent className="p-4 bg-white dark:bg-zinc-900 rounded-xl shadow-xl border border-zinc-200 dark:border-zinc-800 w-[500px]">
+                <NavigationMenuContent className="p-4 bg-white dark:bg-zinc-900  w-[500px]  backdrop-blur-xl bg-gradient-to-r from-green-500/15 via-teal-500/10 to-transparent dark:from-green-500/10 dark:via-teal-500/10 dark:to-transparent rounded-2xl shadow-xl z-50 border border-white/30 dark:border-zinc-700/50 transition-all duration-300">
                   {/* Largura fixa */}
+                  <h2 className="text-lg font-semibold text-center mb-2">
+                    Nossos Cursos
+                  </h2>
                   <div className="flex flex-col gap-2 w-[800px]">
-                    <h2 className="text-lg font-semibold text-center mb-2">
-                      Nossos Cursos
-                    </h2>
                     <div className="grid grid-cols-2 gap-3">
                       {courses.map((course, idx) => (
                         <Card
                           key={idx}
-                          className="p-4 flex flex-col items-center"
+                          className="p-4 flex flex-col justify-center items-center w-100 h-50"
                         >
                           <div className="mb-2">{course.icon}</div>
                           <h3 className="text-sm font-medium text-center">
@@ -100,7 +100,7 @@ export function Header() {
                 <NavigationMenuTrigger className="bg-transparent hover:bg-white/20 dark:hover:bg-zinc-800/50 text-base font-medium px-4 py-3 rounded-xl transition-all duration-200">
                   Conteúdo
                 </NavigationMenuTrigger>
-                <NavigationMenuContent className="p-4 bg-white dark:bg-zinc-900 rounded-xl shadow-xl border border-zinc-200 dark:border-zinc-800 ">
+                <NavigationMenuContent className="p-4 bg-white dark:bg-zinc-900 borderbackdrop-blur-xl bg-gradient-to-r from-green-500/15 via-teal-500/10 to-transparent dark:from-green-500/10 dark:via-teal-500/10 dark:to-transparent z-50 border border-white/30 dark:border-zinc-700/50 transition-all duration-300 ">
                   <div className="grid gap-2 w-64">
                     <NavigationMenuLink className="px-4 py-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800 flex items-center gap-2 text-sm">
                       <FileText size={16} /> Tutoriais
@@ -119,7 +119,7 @@ export function Header() {
                 <NavigationMenuTrigger className="bg-transparent hover:bg-white/20 dark:hover:bg-zinc-800/50 text-base font-medium px-4 py-3 rounded-xl transition-all duration-200">
                   Projetos
                 </NavigationMenuTrigger>
-                <NavigationMenuContent className="p-4 bg-white dark:bg-zinc-900 rounded-xl shadow-xl border border-zinc-200 dark:border-zinc-800">
+                <NavigationMenuContent className="p-4 bg-white dark:bg-zinc-900 backdrop-blur-xl bg-gradient-to-r from-green-500/15 via-teal-500/10 to-transparent dark:from-green-500/10 dark:via-teal-500/10 dark:to-transparent rounded-2xl shadow-xl z-50 border border-white/30 dark:border-zinc-700/50 transition-all duration-300">
                   <div className="grid gap-2 w-64">
                     <NavigationMenuLink className="px-4 py-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800 text-sm">
                       Open Source
