@@ -9,26 +9,35 @@ import {
 
 export function Banners() {
   return (
-    <Carousel className="w-full relative">
+    <Carousel
+      opts={{
+        align: "start",
+        loop: true,
+      }}
+      className="w-full relative"
+    >
       <CarouselContent className=" h-100">
         <CarouselItem>
           <Card>
-            <img src="../../../../public/exemplo.jpeg" alt="" />
+            <img src="/exemplo.jpeg" alt="Exemplo" />
           </Card>
         </CarouselItem>
         <CarouselItem>
           <Card>
-            <img src="../../../../public/exemplo.jpeg" alt="" />
+            <img src="/exemplo.jpeg" alt="Exemplo" />
           </Card>
         </CarouselItem>
         <CarouselItem>
           <Card>
-            <img src="../../../../public/exemplo.jpeg" alt="" />
+            <img src="/exemplo.jpeg" alt="Exemplo" />
           </Card>
         </CarouselItem>
       </CarouselContent>
-      <CarouselPrevious className="absolute top-1/2 left-2 -translate-y-1/2 z-20" />
-      <CarouselNext className="absolute top-1/2 right-2 -translate-y-1/2 z-20" />
+      <CarouselPrevious
+        className="absolute bottom-1/6 left-2 -translate-y-2/12
+      z-20"
+      />
+      <CarouselNext className="absolute bottom-1/6 right-2 -translate-y-2/12 z-20" />
     </Carousel>
   );
 }
