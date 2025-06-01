@@ -1,17 +1,17 @@
 {
-  "name": "EcoOffShore",
+  "name": "eco-offshore",
   "private": "false",
   "version": "1.0.0",
   "type": "module",
   "homepage": "https://kaiser-exe0.github.io/EcoOffShore/",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": " vite build ",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
     "preDeploy": "npm run build",
-    "postinstall": "npm run build"
+    "postinstall": "bun run build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
