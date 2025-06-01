@@ -13,7 +13,7 @@ export function MainPage() {
       img: "user1.jpg",
       role: "Técnico em Instrumentação",
       review:
-        "Os cursos gratuitos da EcoOffShore são uma verdadeira mão na roda pra quem trabalha embarcado. Fiz o módulo de descarte correto de eletrônicos e já apliquei o que aprendi na minha plataforma. É um conteúdo claro, direto e com exemplos reais da rotina offshore. E o melhor: tudo gratuito!",
+        "Os cursos da EcoOffShore são uma verdadeira mão na roda pra quem trabalha embarcado. Fiz o módulo de descarte correto de eletrônicos e já apliquei o que aprendi na minha plataforma. É um conteúdo claro, direto e com exemplos reais da rotina offshore.",
       rating: 5,
     },
     {
