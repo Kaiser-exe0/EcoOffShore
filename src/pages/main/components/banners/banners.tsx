@@ -9,15 +9,15 @@ import {
 export function Banners() {
   const items = [
     {
-      img: "/banner1.png",
+      img: "banner1.png",
       alt: "Exemplo 1",
     },
     {
-      img: "/banner2.png",
+      img: "banner2.png",
       alt: "Exemplo 2",
     },
     {
-      img: "/banner3.png",
+      img: "banner3.png",
       alt: "Exemplo 3",
     },
   ];

@@ -37,42 +37,42 @@ type Course = {
 const courses: Course[] = [
   {
     title: "Introdução à Segurança no Trabalho Offshore",
-    img: "/segurançaOFF.jpg",
+    img: "segurançaOFF.jpg",
     description:
       "Curso básico sobre normas, riscos e práticas seguras no ambiente marítimo e de plataformas.",
     categories: ["livre", "recomendados"],
   },
   {
     title: "Noções de Primeiros Socorros em Áreas Remotas",
-    img: "/nocoesSOS.jpg",
+    img: "nocoesSOS.jpg",
     description:
       "Aprenda a agir com rapidez e eficácia em casos de emergências médicas em alto-mar.",
     categories: ["livre"],
   },
   {
     title: "Leitura e Interpretação de Documentos Técnicos",
-    img: "/interpretação.jpg",
+    img: "interpretação.jpg",
     description:
       "Domine a leitura de manuais, procedimentos e instruções em ambientes industriais.",
     categories: ["livre", "recomendados"],
   },
   {
     title: "Trabalho em Altura - Fundamentos Essenciais",
-    img: "/trabalhoAltura.jpg",
+    img: "trabalhoAltura.jpg",
     description:
       "Capacitação teórica para quem deseja atuar com segurança em plataformas elevadas.",
     categories: ["livre"],
   },
   {
     title: "Conscientização Ambiental para Trabalhadores Offshore",
-    img: "/Conscientização.jpg",
+    img: "Conscientização.jpg",
     description:
       "Entenda os impactos ambientais das operações offshore e boas práticas sustentáveis.",
     categories: ["livre", "recomendados"],
   },
   {
     title: "Informática Básica para Plataformas e Navios",
-    img: "/Informatica.jpg",
+    img: "Informatica.jpg",
     description:
       "Curso introdutório para uso de computadores, planilhas e sistemas embarcados.",
     categories: ["livre"],
@@ -83,35 +83,35 @@ const courses: Course[] = [
     title: "NR-37: Saúde e Segurança em Plataformas de Petróleo",
     description:
       "Conheça os requisitos normativos da NR-37 e como aplicá-los no dia a dia",
-    img: "/image.png",
+    img: "image.png",
     categories: ["emAlta"],
   },
   {
     title: "Inglês Técnico para Operações Offshore",
     description:
       "  Curso prático focado em termos técnicos usados a bordo e em relatórios operacionais.",
-    img: "/operações.jpg",
+    img: "operações.jpg",
     categories: ["emAlta"],
   },
   {
     title: "Procedimentos de Evacuação e Abandono de Plataforma",
     description:
       "Treinamento teórico sobre evacuação segura em situações de emergência.",
-    img: "/abandono.jpg",
+    img: "abandono.jpg",
     categories: ["emAlta"],
   },
   {
     title: "Introdução à Robótica Submarina (ROV)",
     description:
       "Conheça o funcionamento e a operação básica de veículos subaquáticos remotamente operados.",
-    img: "/ROV.jpg",
+    img: "ROV.jpg",
     categories: ["emAlta"],
   },
   {
     title: "Compliance e Ética em Ambientes Industriais",
     description:
       "Entenda a importância da ética, conduta e conformidade em grandes operações.",
-    img: "/etica.jpg",
+    img: "etica.jpg",
     categories: ["emAlta"],
   },
   {

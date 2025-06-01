@@ -54,7 +54,7 @@ export function Header() {
       <header className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[90%] max-w-6xl  flex items-center justify-between px-6 backdrop-blur-xl bg-gradient-to-r from-green-500/15 via-teal-500/10 to-transparent dark:from-green-500/10 dark:via-teal-500/10 dark:to-transparent rounded-2xl shadow-xl z-50 border border-white/30 dark:border-zinc-700/50 transition-all duration-300">
         {/* Logo */}
         <div className="flex-shrink-0 size-10 flex items-center">
-          <img src="/logo.png" alt="" />
+          <img src="logo.png" alt="" />
         </div>
 
         {/* Desktop Navigation  */}

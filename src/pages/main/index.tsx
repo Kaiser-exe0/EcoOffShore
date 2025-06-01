@@ -10,7 +10,7 @@ export function MainPage() {
   const reviwews = [
     {
       name: "Carlos Henrique",
-      img: "/user1.jpg",
+      img: "user1.jpg",
       role: "Técnico em Instrumentação",
       review:
         "Os cursos gratuitos da EcoOffShore são uma verdadeira mão na roda pra quem trabalha embarcado. Fiz o módulo de descarte correto de eletrônicos e já apliquei o que aprendi na minha plataforma. É um conteúdo claro, direto e com exemplos reais da rotina offshore. E o melhor: tudo gratuito!",
@@ -18,7 +18,7 @@ export function MainPage() {
     },
     {
       name: "Fernanda Lopes",
-      img: "/user2.jpg",
+      img: "user2.jpg",
       role: "Área de Saúde, Segurança e Meio Ambiente",
       review:
         "A EcoOffShore trouxe uma solução inovadora para um problema que todo mundo fingia não ver: o lixo eletrônico embarcado. Além de oferecer cursos de qualidade, a empresa tem um compromisso sério com a sustentabilidade. A interface dos cursos é acessível, e os temas são extremamente relevantes para o setor.",
@@ -26,7 +26,7 @@ export function MainPage() {
     },
     {
       name: "João Silva",
-      img: "/user3.jpg",
+      img: "user3.jpg",
       role: "Estudante Técnico e Jovem Aprendiz",
       review:
         "Fiquei surpreso com a qualidade dos cursos da EcoOffShore. Mesmo sendo iniciante, consegui entender tudo sobre logística reversa e práticas sustentáveis no setor offshore. Isso com certeza vai me ajudar no meu futuro profissional.",
