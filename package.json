@@ -1,13 +1,17 @@
 {
-  "name": "teste",
-  "private": true,
-  "version": "0.0.0",
+  "name": "EcoOffShore",
+  "private": "false",
+  "version": "1.0.0",
   "type": "module",
+  "homepage": "https://kaiser-exe0.github.io/EcoOffShore/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "preDeploy": "npm run build",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
@@ -17,10 +21,12 @@
     "@radix-ui/react-navigation-menu": "^1.2.13",
     "@radix-ui/react-separator": "^1.1.7",
     "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-tabs": "^1.1.12",
     "@tailwindcss/vite": "^4.1.8",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "embla-carousel-react": "^8.6.0",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.13.0",
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",

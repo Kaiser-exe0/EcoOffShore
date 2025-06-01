@@ -53,10 +53,8 @@ export function Header() {
       {/* Desktop Header */}
       <header className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[90%] max-w-6xl  flex items-center justify-between px-6 backdrop-blur-xl bg-gradient-to-r from-green-500/15 via-teal-500/10 to-transparent dark:from-green-500/10 dark:via-teal-500/10 dark:to-transparent rounded-2xl shadow-xl z-50 border border-white/30 dark:border-zinc-700/50 transition-all duration-300">
         {/* Logo */}
-        <div className="flex-shrink-0  flex items-center">
-          <div className="bg-gradient-to-br from-green-500 to-teal-500 rounded-xl w-full h-full flex items-center justify-center text-white text-xl font-bold p-1">
-            LOGO
-          </div>
+        <div className="flex-shrink-0 size-10 flex items-center">
+          <img src="/logo.png" alt="" />
         </div>
 
         {/* Desktop Navigation  */}
@@ -92,7 +90,7 @@ export function Header() {
 
               <NavigationMenuItem>
                 <NavigationMenuLink className="hover:bg-white/20 dark:hover:bg-zinc-800/50 text-base font-medium px-4 py-3 rounded-xl transition-all duration-200">
-                  Blog
+                  Empresas
                 </NavigationMenuLink>
               </NavigationMenuItem>
 
