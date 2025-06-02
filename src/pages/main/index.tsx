@@ -40,7 +40,6 @@ export function MainPage() {
 
       <Banners />
 
-      {/* Seção Áreas de Conhecimento - Layout adaptativo */}
       <section className="mt-10 mb-12 px-4 sm:px-6 md:px-8">
         <div className="flex flex-col-reverse md:flex-row gap-8 items-center">
           <div className="flex-1">

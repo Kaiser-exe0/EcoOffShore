@@ -9,6 +9,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu"; // Corrigir a importação
+import { Separator } from "@radix-ui/react-separator";
 import {
   BarChart,
   Book,
@@ -142,7 +143,7 @@ export function Header() {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden p-3 rounded-xl bg-white/20 dark:bg-zinc-800/50 hover:bg-white/30 dark:hover:bg-zinc-700/50 transition-colors"
+          className="md:hidden p-3 rounded-xl transition-colors"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           <Menu size={28} />
@@ -152,26 +153,25 @@ export function Header() {
       {/* Mobile Menu Overlay */}
       {mobileMenuOpen && (
         <div
-          className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm md:hidden"
+          className=" fixed inset-0 z-40 bg-black/50 backdrop-blur-sm md:hidden"
           onClick={() => setMobileMenuOpen(false)}
         >
           <div
-            className="fixed top-0 right-0 bottom-0 w-3/4 max-w-sm bg-white dark:bg-zinc-900 shadow-2xl z-50 animate-in slide-in-from-right"
+            className="fixed  rounded-lg top-0 pt-15 right-0 bottom-0 w-3/4 max-w-sm bg-white dark:bg-zinc-900 shadow-2xl z-50 animate-in slide-in-from-right"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="p-6 h-full flex flex-col">
+            <div className="p=6 h-full flex flex-col">
               <div className="flex justify-between items-center mb-8">
-                <div className="bg-gradient-to-br from-green-500 to-teal-500 rounded-xl w-14 h-14 flex items-center justify-center text-white text-lg font-bold">
-                  LOGO
-                </div>
-                <button
+                <img src="logo.png" alt="logo" className="size-16" />
+                <Button
+                  variant={"ghost"}
                   className="p-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   <X size={24} />
-                </button>
+                </Button>
               </div>
-
+              <Separator />
               <div className="flex-1 grid gap-3">
                 <Button
                   variant="ghost"
@@ -185,7 +185,7 @@ export function Header() {
                   className="justify-start py-3 flex items-center gap-3"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  <Book size={18} /> Blog
+                  <Book size={18} /> Empresas
                 </Button>
                 <Button
                   variant="ghost"
@@ -202,15 +202,15 @@ export function Header() {
                   <Folder size={18} /> Projetos
                 </Button>
               </div>
-
-              <div className="flex flex-col gap-3 mt-auto pt-6 border-t border-zinc-200 dark:border-zinc-800">
+              <Separator />
+              <div className="flex  gap-3 mt-auto pt-6 border-t border-zinc-200 dark:border-zinc-800">
                 <Button
-                  className="bg-gradient-to-r from-green-600 to-teal-500 text-white py-4"
+                  className="bg-gradient-to-r w-full from-green-600 to-teal-500 text-white py-4"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Sign In
                 </Button>
-                <div className="flex justify-center mt-2">
+                <div className="flex justify-center">
                   <ModeToggle />
                 </div>
               </div>

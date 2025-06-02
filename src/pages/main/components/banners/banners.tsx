@@ -33,12 +33,11 @@ export function Banners() {
       <CarouselContent className="">
         {items.map((item, idx) => (
           <CarouselItem key={idx} className="basis-full">
-            <div className="relative w-full pb-[30%] sm:pb-[25%]">
-              {/* Proporção responsiva */}
+            <div className="relative  w-full   pb-[35%] sm:pb-[25%]">
               <img
                 src={item.img}
                 alt={item.alt}
-                className="absolute inset-0 w-full h-full object-contain sm:object-cover rounded-lg shadow-lg"
+                className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-lg"
               />
             </div>
           </CarouselItem>
